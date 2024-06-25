@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "simple-mask-money": "^4.1.3"
+  }
+}

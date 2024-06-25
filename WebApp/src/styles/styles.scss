@@ -1,0 +1,14 @@
+$font-family-base: 'Poppins', sans-serif;
+
+$theme-colors: (
+  "light":      #f9f9f9,
+  "dark":       #030905,
+  "primary":    #00446f,
+  "secondary":  #0073ba,
+  "info":       #b6e0b4,
+  "success":    #00ae60,
+  "warning":    #e7cd00,
+  "danger":     #f90500
+);
+
+@import 'bootstrap/scss/bootstrap.scss';

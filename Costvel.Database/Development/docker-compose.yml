@@ -1,0 +1,14 @@
+name: costvel
+
+services:
+  db:
+    image: postgres
+    restart: no
+    container_name: costvel_db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres_costvel
+      POSTGRES_DB: costvel
+    user: postgres
+    ports:
+      - "5432:5432"
